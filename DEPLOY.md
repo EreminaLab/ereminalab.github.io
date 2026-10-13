@@ -59,6 +59,11 @@ directory to the root. `.nojekyll` is harmless everywhere else.
 
 ## Still to fill in before this goes live
 
+- **Search indexing is off.** Every page carries
+  `<meta name="robots" content="noindex, nofollow">`. Remove it from all seven
+  pages (in `setup/` too) at launch: `grep -rn 'name="robots"' *.html`. Do not add
+  a `robots.txt` that disallows crawling while the tag is in place; crawlers then
+  never see the tag.
 - **Email address.** Every contact slot reads "Email address to follow". No
   `mailto:` link is live anywhere. Find them with `grep -rn TODO *.html`.
 - **Building.** No building is shown. The address stops at the university and
