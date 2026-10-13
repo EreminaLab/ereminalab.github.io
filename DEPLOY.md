@@ -10,8 +10,10 @@ public.
 index.html                    Home
 research.html                 The three programs
 publications.html             Articles, book chapter, patents
-people.html                   The group
-people-olga-eremina.html      Olga in depth
+people.html                   About Us: The Lab (overview, who we are looking for)
+people-olga-eremina.html      About Us: Prof. Eremina
+lab-members.html              About Us: Lab Members (roster, alumni template)
+lab-fun.html                  About Us: Lab Fun (photo template, empty for now)
 news.html                     News
 join.html                     Open positions and contact
 
@@ -60,7 +62,7 @@ directory to the root. `.nojekyll` is harmless everywhere else.
 ## Still to fill in before this goes live
 
 - **Search indexing is off.** Every page carries
-  `<meta name="robots" content="noindex, nofollow">`. Remove it from all seven
+  `<meta name="robots" content="noindex, nofollow">`. Remove it from all nine
   pages (in `setup/` too) at launch: `grep -rn 'name="robots"' *.html`. Do not add
   a `robots.txt` that disallows crawling while the tag is in place; crawlers then
   never see the tag.
@@ -89,4 +91,4 @@ top of the file — colours, typefaces, spacing. Changing the accent colour or t
 display face is a one-line edit that propagates across every page.
 
 Page structure is plain HTML with no templating, so the header, navigation, and
-footer are repeated in each file. Change one, change all seven.
+footer are repeated in each file. Change one, change all nine.
