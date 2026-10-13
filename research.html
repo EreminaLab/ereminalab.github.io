@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research — Eremina Lab</title>
+<meta name="description" content="Three research programs: 65-plex Raman imaging of brain–immune interactions, a dual-mode CNS liquid biopsy, and renal-clearable tri-modal nanoprobes for sentinel lymph node mapping.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="univbar">
+  <span><a href="https://www.utexas.edu">The University of Texas at Austin</a> · <a href="https://chemistry.utexas.edu">Department of Chemistry</a></span>
+  <a class="utlogo-link" href="https://chemistry.utexas.edu/">
+    <img class="utlogo" src="assets/ut-chemistry-logo.png"
+         alt="Department of Chemistry home page" width="900" height="125">
+  </a>
+</div>
+
+<header class="sitehead">
+  <a class="brand" href="index.html">
+    <b>Eremina <i>Lab</i></b>
+    <span>Multiplexed molecular measurement</span>
+  </a>
+  <button class="navtoggle" type="button">Menu</button>
+  <nav class="sitenav" aria-label="Main">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html" aria-current="page">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="join.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="sec">
+    <p class="eyebrow">Research</p>
+    <h1>Three programs, one measurement problem.</h1>
+    <div class="two wide-left">
+      <div class="prose">
+        <p>How do you ask a biological sample many chemical questions at the same time, without destroying it? Every program in the lab is a version of that question, applied to a different tissue and a different clinical decision.</p>
+        <p>What connects them is the probe: a plasmonic core, a Raman reporter chosen by calculation, a protective silica shell, and a targeting ligand. Change the shell chemistry, the size, or the readout, and the same molecular idea serves a brain section, a microliter of spinal fluid, or an operating room.</p>
+      </div>
+      <nav aria-label="Programs">
+        <dl class="keyfacts">
+          <div><dt>01</dt><dd><a href="#brains">BRAINS — brain–immune mapping</a></dd></div>
+          <div><dt>02</dt><dd><a href="#csf">CNS liquid biopsy</a></dd></div>
+          <div><dt>03</dt><dd><a href="#sln">Tri-modal probes for surgery</a></dd></div>
+        </dl>
+      </nav>
+    </div>
+  </section>
+
+  <div class="band strip">
+    <img src="assets/research-spectra.png"
+         alt="Overlaid Raman spectra of several reporter molecules in orange, green, purple and yellow, each a series of sharp narrow peaks falling at different positions along a shared axis."
+         width="3008" height="232">
+  </div>
+
+  <!-- ================= PROGRAM 1 ================= -->
+  <section class="sec white" id="brains">
+    <div class="sechead">
+      <span class="no">01</span>
+      <div>
+        <p class="eyebrow quiet" style="margin-bottom:8px;">BRAINS · Brain Raman Analysis of Immune and Neuropathology Signatures</p>
+        <h2>Multiplexed Raman profiling of brain–immune interactions</h2>
+      </div>
+    </div>
+
+    <figure class="fig" style="margin-bottom:var(--gap);">
+      <img src="assets/figures/fig2-brains.png"
+           alt="Multi-panel schematic of the BRAINS workflow. Panel A lists key advantages: multiplexed spatial immune and neuropathology profiles within a single tissue section, high throughput without repeated staining, and non-destructive imaging. Panel B shows a postmortem brain preserved as an FFPE block and cut into 4-micrometre sections. Panel C shows a targeted SERS nanoparticle with biotargeting species, fluorophore, Raman reporter, protective shell and gold nanocore, alongside a library of thirty or more spectral barcodes feeding a single Raman acquisition and spectral unmixing. Panels D to G show SERS nanoparticle staining, single-plex IHC validation, multiplexed Raman images of a patient sample labelled CD3, CD20, CD68, Ki67, IgG, PD-L1, PD-1, CD8 and CD4, and flow cytometry showing 142-fold targeting specificity."
+           width="1700" height="702">
+    </figure>
+
+    <div class="two">
+      <div>
+        <h3>The problem</h3>
+        <div class="hrule orange" style="width:60px;"></div>
+        <div class="prose">
+          <p>Immune dysregulation is a driver of neurodegeneration, not a bystander. Microglia and other immune populations interact directly with amyloid plaques, tau tangles, and α-synuclein aggregates, and similar remodelling appears across Alzheimer's disease, Parkinson's disease, multiple sclerosis, and normal aging.</p>
+          <p>Yet the tools for high-dimensional immune profiling <em>in intact brain tissue</em> remain limited. Conventional immunohistochemistry gives one or a few markers per section; each additional question costs another slide, and the spatial relationships between them are lost.</p>
+        </div>
+      </div>
+      <div>
+        <h3>What we are building</h3>
+        <div class="hrule orange" style="width:60px;"></div>
+        <div class="prose">
+          <p>A nanoparticle-based SERS imaging platform capable of simultaneously detecting up to <strong>65 biomarkers</strong> on a single section, at subcellular resolution, leaving the tissue available for proteomics and genomics afterwards.</p>
+        </div>
+        <ul class="methods" style="margin-top:18px;">
+          <li>
+            <span class="tag">Aim 1</span>
+            <b>Design spectrally unique probes</b>
+            <span>Combine computationally guided reporter selection with gold nanostar cores to push multiplexing capacity beyond 65 probes.</span>
+          </li>
+          <li>
+            <span class="tag">Aim 2</span>
+            <b>Make targeting specific and reproducible</b>
+            <span>Optimised antibody–nanoparticle conjugation plus microfluidic-assisted staining of FFPE brain sections, for binding precision and throughput.</span>
+          </li>
+          <li>
+            <span class="tag">Aim 3</span>
+            <b>Map real tissue</b>
+            <span>Highly multiplexed Raman imaging of postmortem Alzheimer's, Parkinson's, and aging brain tissue, relating immune phenotypes to neuropathological hallmarks in space.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p><strong>Impact.</strong> BRAINS aims to produce the first comprehensive, non-destructive molecular maps of brain–immune interaction — useful both for mechanistic discovery and as a dense dataset for machine-learning biomarker discovery and computational modelling of neuroinflammation.</p>
+    </div>
+  </section>
+
+  <!-- ================= PROGRAM 2 ================= -->
+  <section class="sec" id="csf">
+    <div class="sechead">
+      <span class="no">02</span>
+      <div>
+        <p class="eyebrow quiet" style="margin-bottom:8px;">CNS liquid biopsy</p>
+        <h2>Early, minimally invasive immune profiling of neuroinflammation</h2>
+        <p>A dual-mode platform reading cerebrospinal fluid two ways at once.</p>
+      </div>
+    </div>
+
+    <figure class="fig" style="margin-bottom:var(--gap);">
+      <img src="assets/figures/fig3-csf-liquid-biopsy.png"
+           alt="Schematic of the dual-mode CSF sensor. A microfluidic pump delivers label-free nanoparticles and targeted nanotags to a patient liquid biopsy sample on a chip. Two excitation paths produce, first, label-free SERS spectra of exosomes and apoptotic bodies feeding a neural network for machine-learning classification of early neuroinflammatory changes, and second, targeted spectra for TREM2, CD14, CX3CR1, HLA-DR and GFAP alongside corresponding fluorescence images, giving a targeted personalised proteomic profile."
+           width="1700" height="509">
+    </figure>
+
+    <div class="two">
+      <div>
+        <h3>The problem</h3>
+        <div class="hrule orange" style="width:60px;"></div>
+        <div class="prose">
+          <p>Neuroinflammation is a unifying driver of neurodegeneration and age-related decline. From Alzheimer's and Parkinson's to multiple sclerosis and traumatic brain injury, maladaptive immune responses accelerate neuronal dysfunction, while subtle shifts in immune activation and extracellular vesicle composition contribute to “inflammaging.”</p>
+          <p>Current cerebrospinal fluid assays — ELISA, flow cytometry, proteomics — need large sample volumes and cannot resolve the cellular and vesicle heterogeneity that reflects early immune dysregulation. The signal that matters arrives before the symptoms, in a sample too small to spend.</p>
+        </div>
+      </div>
+      <div>
+        <h3>What we are building</h3>
+        <div class="hrule orange" style="width:60px;"></div>
+        <div class="prose">
+          <p>The first dual-mode CNS liquid biopsy platform, integrating <strong>label-free Raman fingerprinting</strong> with <strong>multiplexed nanotag phenotyping</strong> — capturing both the intrinsic biochemical state and the surface marker profile of CSF-derived immune cells and extracellular vesicles.</p>
+        </div>
+        <ul class="methods" style="margin-top:18px;">
+          <li>
+            <span class="tag">Aim 1</span>
+            <b>Design the sensing materials</b>
+            <span>Ag/Au SERS nanomaterials serving both label-free classification of cells and vesicles and multiplexed nanotags against microglia-like cells, monocytes, T cells, and CNS-derived vesicles.</span>
+          </li>
+          <li>
+            <span class="tag">Aim 2</span>
+            <b>Classify with dual readout</b>
+            <span>Machine-learning classification and spectral molecular profiling based on combined Raman and fluorescence detection.</span>
+          </li>
+          <li>
+            <span class="tag">Aim 3</span>
+            <b>Compare across disease</b>
+            <span>Immune signatures in CSF from Alzheimer's, Parkinson's, multiple sclerosis, and mild cognitive impairment cohorts, separating shared from disease-specific pathways.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p><strong>Impact.</strong> Comprehensive molecular readouts from microliter-scale CSF would allow neuroinflammatory signatures to be detected before symptomatic onset, patients to be stratified for emerging immunotherapies, and treatment response to be monitored longitudinally with a minimally invasive sample.</p>
+    </div>
+  </section>
+
+  <!-- ================= PROGRAM 3 ================= -->
+  <section class="sec white" id="sln">
+    <div class="sechead">
+      <span class="no">03</span>
+      <div>
+        <p class="eyebrow quiet" style="margin-bottom:8px;">Sentinel lymph node mapping</p>
+        <h2>Multiplexed nanoparticle immune profiling in the operating room</h2>
+        <p>Renal-clearable probes that guide the surgeon, then report on what was found.</p>
+      </div>
+    </div>
+
+    <div class="two wide-right" style="margin-bottom:var(--gap);">
+      <div>
+        <h3>The problem</h3>
+        <div class="hrule orange" style="width:60px;"></div>
+        <div class="prose">
+          <p>Immune balance in the sentinel lymph node dictates progression and therapy response. Accurate identification of these nodes is critical for staging in melanoma, head and neck, and breast cancer — yet current mapping relies on non-specific dyes or radiotracers that locate the node without saying anything about its immune state.</p>
+          <p>In the immunotherapy era that is a serious limitation. The surgeon learns <em>where</em> but not <em>what</em>, and the immunological question is answered days later, if at all.</p>
+        </div>
+
+        <h3 style="margin-top:28px;">What we are building</h3>
+        <div class="hrule orange" style="width:60px;"></div>
+        <div class="prose">
+          <p>Renal-clearable multimodal nanoprobes that combine <strong>PET and NIR-II fluorescence</strong> for intra-operative localisation with <strong>Raman barcodes</strong> for high-plex ex vivo immune phenotyping — one particle, two jobs, in sequence.</p>
+        </div>
+        <ul class="methods" style="margin-top:18px;">
+          <li>
+            <span class="tag">Aim 1</span>
+            <b>Engineer the particle</b>
+            <span>Renal-clearable, PEGylated silica-encapsulated probes under 10 nm carrying NIR-II fluorophores and PET tracers, for efficient lymphatic uptake and clearance.</span>
+          </li>
+          <li>
+            <span class="tag">Aim 2</span>
+            <b>Build the immune panel</b>
+            <span>Multiplexed Raman panel conjugating SERS nanoparticles to antibodies against CD8, FoxP3, PD-L1, and related markers.</span>
+          </li>
+          <li>
+            <span class="tag">Aim 3</span>
+            <b>Close the loop in vivo</b>
+            <span>Integrate PET/NIR-II localisation with ex vivo SERS immune profiling in orthotopic tumour models, correlating immune composition with therapeutic response.</span>
+          </li>
+        </ul>
+      </div>
+
+      <figure class="fig">
+        <img src="assets/figures/fig4-multimodal-nanoprobes.png"
+             alt="Concept diagram of a multimodal nanoparticle for immune profiling. Left, a patient outline with the lymphatic system highlighted and an inset of a sentinel lymph node. Centre, a cutaway nanoparticle showing gold nanoclusters inside a fluorescent silica shell, with antibodies and PET labels on the surface. Right, a PET scan with an arrow marking uptake, and an intra-operative photograph of a fluorescent green lymph node held by forceps. Below, twelve multiplexed fluorescence and SERS images of tissue in yellow, magenta, white, green, orange and cyan, with magnified insets."
+             width="1700" height="1689">
+      </figure>
+    </div>
+
+    <div class="callout">
+      <p><strong>Impact.</strong> Mapping sentinel nodes while simultaneously determining their immunological status would reduce unnecessary lymphadenectomies, enable precision-guided immunotherapy stratification, and generalise to immune monitoring in transplantation, infection, and autoimmune disease.</p>
+    </div>
+  </section>
+
+  <!-- ================= where it goes ================= -->
+  <section class="sec">
+    <div class="sechead">
+      <span class="no">04</span>
+      <div>
+        <h2>Where the program is heading</h2>
+        <p>The three programs are designed to feed each other, and to generate the kind of data that makes computational discovery possible.</p>
+      </div>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <p class="code">Direction 01</p>
+        <h3>Past 65 channels</h3>
+        <p>Expanding sensitive multiplexing beyond 65 channels by co-designing Raman reporters, nanoparticle architectures, and acquisition schemes together, using computational and high-throughput optimisation rather than one at a time.</p>
+      </article>
+      <article class="card">
+        <p class="code">Direction 02</p>
+        <h3>AI-native analysis</h3>
+        <p>Pipelines for spectral unmixing, confidence scoring, and uncertainty quantification — turning dense molecular data into biomarkers a clinician could act on, with an honest error bar attached.</p>
+      </article>
+      <article class="card">
+        <p class="code">Direction 03</p>
+        <h3>Deployable, not just publishable</h3>
+        <p>Reducing sample volume, runtime, and operator burden while holding performance across instruments, so that a platform developed on one microscope survives contact with a second one.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec dark">
+    <h2>Work on this</h2>
+    <div class="hrule"></div>
+    <div class="two">
+      <div>
+        <p class="lede" style="color:var(--mist);">Each program has room for a student or postdoc who wants to own a piece of it end to end — the synthesis, the imaging, and the analysis.</p>
+        <div class="btnrow">
+          <a class="btn" href="join.html">How to join</a>
+        </div>
+      </div>
+      <div></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="sitefoot">
+  <div>
+    <h4>Eremina Laboratory</h4>
+    <p>Department of Chemistry</p>
+    <p>The University of Texas at Austin</p>
+    <p><!-- TODO: add building name, street address, and room once assigned -->Austin, TX 78712</p>
+  </div>
+  <div>
+    <h4>Site</h4>
+    <ul>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="people.html">People</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="join.html">Join</a></li>
+    </ul>
+  </div>
+  <div>
+    <h4>Contact</h4>
+    <ul>
+      <li><a href="mailto:olga.eremina@austin.utexas.edu">olga.eremina@austin.utexas.edu</a></li>
+      <li><a href="https://orcid.org/0000-0002-2776-4743">ORCID 0000-0002-2776-4743</a></li>
+      <li><a href="publications.html">Google Scholar</a></li>
+      <li><a href="https://www.webofscience.com/wos/author/record/1571301">Web of Science</a></li>
+    </ul>
+  </div>
+  <!-- TODO: add the lab's NIH R00 award number once issued -->
+  <div class="footnote">
+    <span>© 2026 Eremina Laboratory</span>
+  </div>
+</footer>
+
+<script src="assets/nav.js"></script>
+</body>
+</html>
