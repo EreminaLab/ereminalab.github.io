@@ -190,15 +190,8 @@ p:last-child{margin-bottom:0;}
 .prose a:not(.btn){color:var(--orange); text-decoration:none; border-bottom:1px solid rgba(191,87,0,.32);}
 .prose a:not(.btn):hover{border-bottom-color:var(--orange);}
 
-/* numbered section header */
-.sechead{
-  display:grid; grid-template-columns:auto 1fr; gap:20px; align-items:baseline;
-  margin-bottom:clamp(22px,3vw,32px);
-}
-.sechead .no{
-  font-family:var(--slab); font-size:clamp(26px,3.2vw,40px); font-weight:700; color:var(--orange);
-  letter-spacing:-.03em; line-height:1; font-variant-numeric:tabular-nums;
-}
+/* section header (the orange "01"-style numbers were removed, Oct 2026) */
+.sechead{margin-bottom:clamp(22px,3vw,32px);}
 .sechead p{margin:0; color:var(--body); max-width:62ch; font-size:16px;}
 
 .hrule{height:3px; background:var(--ink); margin:0 0 22px;}
@@ -565,7 +558,6 @@ a.person:hover .av{border-color:var(--orange);}
 
   .cards,.cards.two{grid-template-columns:1fr;}
   .two,.two.wide-left,.two.wide-right{grid-template-columns:1fr;}
-  .sechead{grid-template-columns:1fr; gap:6px;}
   .news li{grid-template-columns:1fr; gap:4px;}
   /* needs its own entry — .news.shots li outranks .news li above */
   .news.shots li{grid-template-columns:1fr; gap:10px;}
