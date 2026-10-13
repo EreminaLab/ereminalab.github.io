@@ -109,6 +109,9 @@ canvas{max-width:100%;}
   display:block; font-family:var(--mono); font-size:9px; letter-spacing:.14em;
   text-transform:uppercase; color:var(--steel); margin-top:6px;
 }
+/* "Est. 2027" under the mark, the tagline at the far end of the lines */
+.brand .brand-sub{justify-self:stretch; display:flex; justify-content:space-between; gap:18px;}
+.brand-sub small{font-size:inherit;}
 .brand .brand-lines{
   grid-row:2; grid-column:2; justify-self:stretch; position:relative; margin:0;
 }
