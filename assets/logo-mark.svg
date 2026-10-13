@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="21.5 39.5 338.5 164" width="338.5" height="164">
+  <!-- Eremina Lab mark: three multiplexed Raman spectra, redrawn from
+       EreminaLab_Multiplexed_Raman_Spectra_Logo.pdf. The baselines run off the
+       right edge on purpose; .brand-lines in site.css continues them under the
+       name. Keep y = 168 / 184 / 200 and stroke-width 7 in step with that rule. -->
+  <g fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="#BF5700" d="M25 168H58L72 73L86 168H125L140 114L152 168H198L213 43L225 168H277L295 98L310 168H370"/>
+    <path stroke="#278D87" d="M25 184H97L111 118L125 184H179L194 79L207 184H254L268 135L282 184H370"/>
+    <path stroke="#9A78AD" d="M25 200H87L99 150L113 200H160L178 122L191 200H295L314 147L329 200H370"/>
+  </g>
+</svg>
