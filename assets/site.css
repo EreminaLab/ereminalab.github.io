@@ -193,6 +193,8 @@ p:last-child{margin-bottom:0;}
 /* section header (the orange "01"-style numbers were removed, Oct 2026) */
 .sechead{margin-bottom:clamp(22px,3vw,32px);}
 .sechead p{margin:0; color:var(--body); max-width:62ch; font-size:16px;}
+/* Publications: centred label marking the pre-UT list ("Before UT Austin") */
+.sechead p.era{max-width:none; text-align:center; font-size:19px; margin-top:14px;}
 
 .hrule{height:3px; background:var(--ink); margin:0 0 22px;}
 .hrule.orange{background:var(--orange);}
