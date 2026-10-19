@@ -252,13 +252,17 @@ figure.fig.plain{border:none; background:none; padding:0;}
   display:block; width:100%; height:clamp(76px,9vw,112px);
   animation:strip-draw 1.875s cubic-bezier(.215,.61,.355,1) both;
 }
+/* -webkit-clip-path: Safari before 13.1 only knows the prefixed name. */
 @keyframes strip-draw{
-  from{clip-path:inset(0 100% 0 0);}
-  to{clip-path:inset(0 0 0 0);}
+  from{-webkit-clip-path:inset(0 100% 0 0); clip-path:inset(0 100% 0 0);}
+  to{-webkit-clip-path:inset(0 0 0 0); clip-path:inset(0 0 0 0);}
 }
-/* spectra.js skips its animation under the same condition */
+/* strip.js adds .wait to strips below the fold and removes it when they
+   scroll into view, so the sweep plays then instead of at page load. */
+.band.strip.wait img{animation:none; -webkit-clip-path:inset(0 100% 0 0); clip-path:inset(0 100% 0 0);}
+/* spectra.js and strip.js skip their animation under the same condition */
 @media (prefers-reduced-motion:reduce){
-  .band.strip img{animation:none;}
+  .band.strip img, .band.strip.wait img{animation:none; -webkit-clip-path:none; clip-path:none;}
 }
 
 /* .band.illus — full-bleed illustration strip above the hero. object-fit:cover
