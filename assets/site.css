@@ -318,6 +318,15 @@ figure.fig.plain{border:none; background:none; padding:0;}
 }
 .keyfacts dd a{color:var(--body); text-decoration:none; border-bottom:1px solid var(--hair);}
 .keyfacts dd a:hover{color:var(--orange); border-bottom-color:var(--orange);}
+/* .row: the three facts side by side, lined up with the .cards grid above them
+   (Home, under Research programs). Stacks on phones. */
+.keyfacts.row{display:grid; grid-template-columns:repeat(3,1fr); column-gap:clamp(16px,2.4vw,28px); border-top:none;}
+.keyfacts.row > div{border-top:3px solid var(--ink);}
+@media (max-width:820px){
+  .keyfacts.row{grid-template-columns:1fr;}
+  .keyfacts.row > div{border-top:none;}
+  .keyfacts.row > div:first-child{border-top:3px solid var(--ink);}
+}
 
 /* --------------------------------------------------------------------------
    Cards
