@@ -58,11 +58,11 @@
     <p class="lede">The lab opens in January 2027. The first cohort is being recruited now.</p>
   </section>
 
-  <!-- ============ members ============ -->
-  <section class="sec white" id="members">
+  <!-- ============ principal investigator ============ -->
+  <section class="sec white" id="pi">
     <div class="sechead">
       <div>
-        <h2>Current members</h2>
+        <h2>Principal Investigator</h2>
       </div>
     </div>
     <div class="roster">
@@ -78,25 +78,43 @@
           <li><a class="more" href="publications.html">Publications →</a></li>
         </ul>
       </div>
-      <div class="person">
-        <div class="av photo"><img src="assets/people/maddie-lisenko.jpg" alt="Maddie Lisenko" width="600" height="600"></div>
-        <b>Maddie Lisenko</b>
-        <span>Graduate student</span>
-        <ul class="person-links">
-          <li><a href="mailto:mlisenko@my.utexas.edu">mlisenko@my.utexas.edu</a></li>
-          <li><a class="more" href="#maddie-lisenko">About Maddie →</a></li>
-        </ul>
+    </div>
+  </section>
+
+  <!-- ============ current lab members ============
+       One subsection per group (h3.subhead). A member with a bio is an
+       <article class="profile">, in the member's own words; open positions
+       are "person open" tiles in a .roster below the profiles. -->
+  <section class="sec" id="members">
+    <div class="sechead">
+      <div>
+        <h2>Current Lab Members</h2>
       </div>
+    </div>
+
+    <h3 class="subhead" id="graduate-students">Graduate Students</h3>
+    <article class="profile" id="maddie-lisenko">
+      <div class="av photo"><img src="assets/people/maddie-lisenko.jpg" alt="Maddie Lisenko" width="600" height="600"></div>
+      <div>
+        <h4 class="name">Maddie Lisenko</h4>
+        <p class="role">Graduate student · <a href="mailto:mlisenko@my.utexas.edu">mlisenko@my.utexas.edu</a></p>
+        <p>I graduated from Purdue University (IUPUI) in December 2025 with a Chemistry B.S. and a minor in Math. Before beginning my PhD at the University of Texas at Austin, I spent a semester at Argonne National Laboratory as a SULI student working on surface functionalization of MXenes using organic molecules.</p>
+        <h5>Research interests</h5>
+        <p>I am interested in applying chemistry to develop novel materials that improve existing technologies. I ultimately want to use fundamental chemical principles and analytical techniques to help address real-world challenges for energy and space applications.</p>
+        <h5>Outside of the lab</h5>
+        <p>I enjoy crocheting, running, reading, going to concerts, and thrifting!</p>
+      </div>
+    </article>
+    <div class="roster after-profiles">
       <div class="person open">
         <div class="av"></div>
         <b>Open</b>
         <span>Graduate students</span>
       </div>
-      <div class="person open">
-        <div class="av"></div>
-        <b>Open</b>
-        <span>Postdoctoral fellows</span>
-      </div>
+    </div>
+
+    <h3 class="subhead" id="undergraduate-students">Undergraduate Students</h3>
+    <div class="roster">
       <div class="person open">
         <div class="av"></div>
         <b>Open</b>
@@ -105,45 +123,17 @@
     </div>
   </section>
 
-  <!-- ============ member profiles ============
-       One <article class="profile"> per member, in roster order. The id is what the
-       roster tile's "About ... →" link points to. Text is the member's own words. -->
-  <section class="sec" id="profiles">
-    <div class="sechead">
-      <div>
-        <h2>Graduate students</h2>
-      </div>
-    </div>
-    <article class="profile" id="maddie-lisenko">
-      <div class="av photo"><img src="assets/people/maddie-lisenko.jpg" alt="" width="600" height="600"></div>
-      <div>
-        <h3>Maddie Lisenko</h3>
-        <p class="role">Graduate student · <a href="mailto:mlisenko@my.utexas.edu">mlisenko@my.utexas.edu</a></p>
-        <p>I graduated from Purdue University (IUPUI) in December 2025 with a Chemistry B.S. and a minor in Math. Before beginning my PhD at the University of Texas at Austin, I spent a semester at Argonne National Laboratory as a SULI student working on surface functionalization of MXenes using organic molecules.</p>
-        <h4>Research interests</h4>
-        <p>I am interested in applying chemistry to develop novel materials that improve existing technologies. I ultimately want to use fundamental chemical principles and analytical techniques to help address real-world challenges for energy and space applications.</p>
-        <h4>Outside of the lab</h4>
-        <p>I enjoy crocheting, running, reading, going to concerts, and thrifting!</p>
-      </div>
-    </article>
-  </section>
-
-  <!-- ============================================================
-       ALUMNI — hidden until the lab has alumni to list.
-
-       To switch on: delete the two comment markers wrapping this
-       section, then add a <tr> per person. Researchers Olga mentored
-       before the lab opened are on her own page, under "Previously
-       mentored" — keep those separate from lab alumni.
-       ============================================================ -->
-  <!--
+  <!-- ============ lab alumni ============
+       No alumni yet. When there are, delete the placeholder paragraph and
+       the two comment markers around the table, then add a <tr> per person. -->
   <section class="sec white" id="alumni">
     <div class="sechead">
       <div>
-        <h2>Alumni</h2>
-        <p>Where people went after the lab.</p>
+        <h2>Lab Alumni</h2>
       </div>
     </div>
+    <p class="empty">The lab opens in January 2027. Alumni will be listed here.</p>
+    <!--
     <div class="tbl-wrap">
       <table class="tbl">
         <thead>
@@ -159,8 +149,8 @@
         </tbody>
       </table>
     </div>
+    -->
   </section>
-  -->
 
 
   <section class="sec dark">
